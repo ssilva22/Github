@@ -1,0 +1,105 @@
+h1{
+    text-align:center;
+    font-size:44px;
+    color:gray;
+  }
+  h1:hover{
+    color:#d6cbd3;
+  }
+  html{
+    margin:8px 8px;
+    border:20px solid gray;
+      padding:10px;
+  }
+  .box{
+    text-align:justify;
+    text-indent:20px;
+    padding:50px 40px;
+    margin:40px 40px;
+    background-color:#b5e7a0;
+    font-size:20px;
+  }
+  .box:hover{
+    background-color:#ff7b25;
+  }
+  .section2:hover{
+    background-color:#82b74b;
+    color:#ffef96;
+  }
+  .section2{
+    text-align:justify;
+     padding:90px 40px;
+    margin:40px 40px;
+    background-color:#3e4444;
+    font-size:20px;
+    color:#b2b2b2;
+    margin-top:-40px;
+  }
+  h3{
+    font-size:40px;
+    color:gray;
+    text-transform:uppercase;
+  }
+  h3:hover{
+    color:orange;
+    text-transform:capitalize;
+  }
+  .section3:hover{
+    color:orange
+  }
+  .section3{
+    margin:40px 40px;
+    font-size:20px;
+  }
+  .photos{
+    text-decoration:none;
+    list-style-type:none;
+  }
+  .gallery{
+    margin:70px -15px;
+    list-style-type:none;
+  }
+  li:hover{
+    border:110px 110px;
+    border-color:black;
+    border-style:dotted;
+  }
+  /*  GRID COLUMN SETUP   ==================================================================== */
+  
+  .col {
+      display: block;
+      float:left;
+      margin: 1% 0 1% 1.6%;
+  }
+  
+  .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+  
+  
+  /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+  
+  @media only screen and (max-width: 480px) {
+      .col { 
+          /*margin: 1% 0 1% 0%;*/
+          margin: 0;
+      }
+  }
+  
+  /*  GRID OF FOUR   ============================================================================= */
+  
+      
+  .span-4-of-4 {
+      width: 100%; 
+  }
+  
+  .span-3-of-4 {
+      width: 74.6%; 
+  }
+  
+  .span-2-of-4 {
+      width: 49.2%; 
+  }
+  
+  .span-1-of-4 {
+      width: 23.8%; 
+  }
+  
